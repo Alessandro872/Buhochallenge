@@ -1,6 +1,25 @@
-body{
-    background-color: aqua;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+:root{
+    --red: '#ec2a1c';
+    --black: #130f40;
+    --light-color: 
 }
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    outline: none; border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+}
+
 h2{
     color: rebeccapurple;
 }
