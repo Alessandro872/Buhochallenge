@@ -279,6 +279,55 @@ html{
 }
 /*home section end*/ 
 
+/*Prices section start*/
+
+.prices .product-slider{
+    padding:1rem;
+}
+
+.prices .product-slider:first-child{
+    margin-bottom: 2rem;
+}
+
+.prices .product-slider .box{
+    background: #fff;
+    border-radius: .5rem;
+    text-align: center;
+    padding:3rem 2rem;
+    outline-offset: -1rem;
+    outline: var(--outline);
+    box-shadow: var(--box-shadow);
+    transition: .2s linear;
+}
+
+.prices .product-slider .box:hover{
+    outline-offset: 0rem;
+    outline: var(--outline-hover);
+}
+
+.prices .product-slider .box img{
+    height:20rem;
+}
+
+.prices .product-slider .box h3{
+    font-size: 2.5rem;
+    color:var(--black);
+}
+
+.prices .product-slider .box .price{
+    font-size: 2rem;
+    color:var(--light-color);
+    padding:.5rem 0;
+}
+
+.prices .product-slider .box .stars i{
+    font-size: 1.7rem;
+    color:var(--red);
+    padding:.5rem 0;
+}
+
+/*Prices section end*/
+
 /*offers section start*/ 
 
 .offers .box-container{
